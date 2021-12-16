@@ -1,0 +1,334 @@
+@media screen and (max-width: 1200px) {
+    #services{
+        height: 120vh;
+    }
+    #services .overlay{
+        padding: 0;
+    }
+    #aboute .section-title{
+        padding: 20px;
+    }
+    #aboute .section-title button{
+        width: 100%;
+    }
+}
+@media screen and (max-width:992px){
+    #aboute .aboute-teame .about-teame-item .aboute-slide{
+        height: 355px;
+    }
+    #beautitext .beautitext h1{
+        font-size: 20px;
+    }
+    header ul{
+        width: 50%;
+    }
+    #header-top{
+        height: 4vh;
+    }
+    #base-story .base-story .story-icon div::after{
+        top: -3%;
+        left: -10%;
+    }
+}
+@media screen and (max-width:768px){
+    #footer .footer-about .footer-about-contact .footer-social ul li a svg{
+        margin-left: 10px;
+    }
+    header ul{
+        width: 60%;
+    }
+    #header-top{
+        height: 5vh;
+    }
+    #base-story .base-story .story-icon div{
+        height: 100px;
+    }
+    #base-story .base-story .story-icon div a h4{
+        font-size: 15px;
+    }
+    #base-story .base-story .story-icon div::after{
+        top: -3%;
+        left: -12%;
+    }
+
+
+    #base-story .row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #slider{
+        height: 400px;
+    }
+    #slider .slider-desc{
+        height: 400px;
+    }
+    #base-story .base-video{
+        width: 70%;
+    }
+    #base-story .base-story{
+        width: 70%;
+        margin-top: 20px;
+    }
+    #aboute .aboute-teame .about-teame-item img{
+        height: 300px;
+    }
+    #aboute .aboute-teame .about-teame-item .aboute-slide{
+        height: 300px;
+    }
+    #aboute .section-title p{
+        padding: 0;
+        line-height: 20px;
+        margin-top: 0;
+    }
+    #article .post .post-date h2{
+        font-size: 13px;
+    }
+    #article .post .post-deck{
+        font-size: 15px;
+    }
+    #footer .footer-content .hot-content ul li{
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    #footer .footer-content .portfolio ul li{
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    #services .tab-button ul li{
+        font-size: 14px;
+    }
+    #services .tab-button ul li svg{
+        font-size: 18px;
+    }
+    #services .tab-content .tab .content .content-title h3{
+        font-size: 17px;
+    }
+    #services .tab-content .tab .content .content-title p{
+        font-size: 13px;
+        text-align: justify;
+    }
+    #article .post .post-img:hover::before{
+        height: 150px;
+    }
+    #footer .footer-content{
+        margin-bottom: 0;
+    }
+    #info{
+        display: none;
+    }
+    header ul{
+        width: 70%;
+    }
+}
+@media screen and (max-width:576px){
+    header ul{
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 81%;
+        background-color: #000;
+        justify-content: center;
+        z-index: 1000;
+        flex-direction: column;
+        transition: all.4s ease-in-out;
+        -webkit-transition: all.4s ease-in-out;
+        -moz-transition: all.4s ease-in-out;
+        -ms-transition: all.4s ease-in-out;
+        -o-transition: all.4s ease-in-out;
+}
+    header ul.active{
+      display: flex;
+    }
+    header ul li{
+        height: auto;
+        margin: 20px 0;
+    }
+    .toggle-menu{
+        display: flex;
+    }
+    #base-story .base-story .story-icon div{
+        width: 49%;
+        margin-top: 15px;
+    }
+    #base-story .base-story .story-icon{
+        flex-wrap: wrap;
+   
+    }
+    #base-story .base-story .story-icon div::after {
+
+        top: -3%;
+        left: -6%;
+    
+    }
+    #header-top{
+        height: 6vh;
+    }
+    #slider .slider-desc{
+        font-size: 22px;
+    }
+    #base-story .base-story .story-title p{
+        line-height: 25px;
+    }
+    #services .tab-content .tab .content .content-img img{
+        height: 200px;
+    }
+    #aboute{
+        padding: 50px 0;
+    }
+    #aboute .section-title{
+        padding: 0;
+    }
+    #aboute .aboute-teame{
+        display: none;
+    }
+    #aboute .section-title{
+        width: 80%;
+    }
+    #aboute .section-title p{
+        line-height: 28px;
+    }
+    #aboute .row{
+        justify-content: center;
+    }
+    #beautitext .beautitext h1{
+        font-size: 17px;
+    }
+    #article{
+        height: 1150px;
+    }
+    #article .article-post{
+        flex-direction: column;
+        align-items: center;
+    }
+    #article .post{
+        width: 70%;
+        margin-top: 20px;
+    }
+    #partner ul {
+        flex-wrap: wrap;
+    }
+    #partner ul li{
+        width: 49%;
+    }
+    #footer .footer-about{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #footer .footer-about .footer-about-title{
+        width: 80%;
+        text-align: center;
+    }
+    #footer .footer-about .footer-about-contact{
+        width: 80%;
+        margin-top: 10px;
+    }
+    #footer .footer-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #footer .footer-content div{
+        width: 80%;
+    }
+    #footer .footer-content .hot-content h3{
+        color: #fff;
+    }
+    #footer .footer-content .quick-access h3{
+        color: #fff;
+    }
+    #footer .footer-content .portfolio h3{
+        color: #fff;
+    }
+    #services{
+        height: 150vh;
+    }
+    #services .tab-button ul{
+        flex-direction: column;
+        height: 250px;
+    }
+    #services .tab-button ul li{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:400px){
+    #header-top .header-top-message{
+        width: 80%;
+    }
+    #header-top .header-top-message p{
+        font-size: 12px;
+    }
+    #header-top .header-top-social ul li{
+        margin: 0 8px;
+        margin-top: 5px;
+    }
+    #base-story .base-video::before{
+        width: 300px;
+    }
+    #base-story .base-video{
+        width: 100%;
+    }
+    #base-story .base-story{
+        width: 100%;
+        margin-top: 10px;
+    }
+    #base-story .base-story .story-icon{
+        margin: 10px 0 0 0 ;
+    }
+    #beautitext .beautitext h1{
+        font-size: 12px;
+    }
+    .beautitext a{
+        font-size: 12px;
+    }
+    #services{
+        height: 150vh;
+    }
+    #services .tab-button ul{
+        flex-direction: column;
+        height: 250px;
+    }
+    #services .tab-button ul li{
+        width: 100%;
+    }
+    #services .tab-content .tab .content .content-img img{
+        display: none;
+    }
+    #services .tab-content .tab .content .content-title{
+        width: auto;
+    }
+    #aboute .section-title p{
+        font-size: 14px;
+    }
+    #article .article-post{
+        margin-bottom: 500px;
+    }
+    #article{
+        height: 1100px;
+    }
+    #article .post{
+        width: 100%;
+    }
+    #footer .footer-about .footer-about-title p{
+        text-align: justify;
+    }
+    #slider{
+        height: 320px;
+    }
+    #slider .slider-desc{
+        font-size: 19px;
+    }
+    #footer .footer-about .footer-about-contact{
+        width: 100%;
+    }
+    #footer .footer-about .footer-about-title{
+        width: 100%;
+    }
+    #footer .footer-content div{
+        width: 100%;
+    }
+}
